@@ -90,3 +90,21 @@ label[for="phone"] {
 label[for="phone"] i {
   cursor: pointer;
 }
+
+.message {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #FD51AF;
+  border-radius: 4px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.message__text {
+  font-size: 18px;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
